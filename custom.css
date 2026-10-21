@@ -1,0 +1,131 @@
+.gt_table {
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+}
+
+/* cabeçalho */
+.gt_table thead,
+.gt_table thead tr,
+.gt_table thead th {
+  background: white !important;
+}
+
+.gt_table thead {
+  position: sticky !important;
+  top: 0;
+  z-index: 5;
+  box-shadow: 0 -12px 0 0 white;   /* cobre o espaço acima */
+}
+
+/* rodapé */
+.gt_table tfoot,
+.gt_table tfoot tr,
+.gt_table tfoot td {
+  background: white !important;
+}
+
+.gt_table tfoot {
+  position: sticky !important;
+  bottom: 0;
+  z-index: 5;
+  box-shadow: 0 12px 0 0 white;    /* cobre o espaço abaixo */
+}
+
+.box-grey {
+  background-color: #F3F4F6;
+  border-left: 6px solid black;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+.box-greypeq {
+  font-size: 0.9em;
+  background-color: #F3F4F6;
+  border-left: 6px solid black;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.box-greypeq2 {
+  font-size: 0.8em;
+  background-color: #F3F4F6;
+  border-left: 6px solid black;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.box-greypeq3 {
+  font-size: 0.7em;
+  background-color: #F3F4F6;
+  border-left: 6px solid black;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+.box-peq {
+  font-size: 0.8em;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.box-peq2 {
+  font-size: 0.7em;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.box-peq3 {
+  font-size: 0.9em;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.texto-baixo {
+  margin-top: 200px;
+}
+
+.texto-baixo2 {
+  margin-top: 100px;
+}
+
+.texto-baixo3 {
+  position: relative;
+  top: 100px
+}
+
+.texto-baixo4 {
+  margin-top: 150px;
+}
+
+.linha-esq { border-left: 2px solid #999; padding-left: 1em; }
+
+.up   { color: darkgreen; font-weight: bold; }
+.down { color: #CD0000; font-weight: bold; }
+
+.reveal h2 {
+  font-size: 1.3em;
+}
+
+.box-espaco > ul > li {
+  margin-bottom: 30px !important;
+}
+
+.box-maisespaco > ul > li {
+  margin-bottom: 30px !important;
+}
+
+.panel-tabset a {
+  color: black !important;
+}
+
+.panel-tabset a.active {
+  color: black !important;
+  font-weight: bold;
+}
+
+.scroll-amostras {
+  height: 400px;
+  overflow-y: auto;
+}
